@@ -2,3 +2,16 @@
 404 error at 12-09-2017 21:05:50: http://localhost:5000/does_not_exist 
 404 error at 12-09-2017 21:05:51: http://localhost:5000/favicon.ico 
 500 error at 12-09-2017 21:09:27: http://127.0.0.1:5000/register/ 
+404 error at 24-09-2017 17:25:00: http://localhost/this-route-does-not-exist/ 
+404 error at 24-09-2017 17:26:37: http://localhost/this-route-does-not-exist/ 
+404 error at 24-09-2017 17:27:54: http://localhost/this-route-does-not-exist/ 
+404 error at 24-09-2017 17:28:40: http://localhost/this-route-does-not-exist/ 
+404 error at 24-09-2017 20:15:21: http://localhost/api/v1/tasks/ 
+404 error at 24-09-2017 20:15:21: http://localhost/api/v1/tasks/209 
+404 error at 24-09-2017 20:15:21: http://localhost/api/v1/tasks/2 
+404 error at 24-09-2017 20:18:11: http://localhost/api/v1/tasks/ 
+404 error at 24-09-2017 20:18:11: http://localhost/api/v1/tasks/209 
+404 error at 24-09-2017 20:18:11: http://localhost/api/v1/tasks/2 
+404 error at 24-09-2017 20:31:59: http://localhost/api/v1/tasks/ 
+404 error at 24-09-2017 20:31:59: http://localhost/api/v1/tasks/209 
+404 error at 24-09-2017 20:31:59: http://localhost/api/v1/tasks/2 
