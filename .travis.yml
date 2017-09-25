@@ -12,4 +12,6 @@ deploy:
     secure: gUrNH6z5kCwvelM9QqFpy4Djsg3dFWnL0i1fnAFa2ftuK03Pj/uo26Zqnwnc3ODgd9HRB2HenRYuxHV0wA8n8WmujHaxzVfKnzhUyJBJQgAucujIT2sEKMdRrMmdS1+qJeiIXuI5Dzsivj4PjK3x483RjcjxpSHk3ERS8NVmybpixcC+ogdCBzxnShBjtYCZ81ebgUhbyR3XAwQXUyL0E+hDqeF78etF8fa9/r9q2wshZnwZd16cdAFJC4BUuWN1ZaGHRM9pOW1aWOJ5W1kheMxvmXFrnT+VFV/n3C/NRM4/LqXclmc78G+rJuPO+aCtsc7OhmI051Jjq8Cki76GzrEuGhqMh0j7lnmut4vmKHy3795z5PZPtzxJE9lKTZZ3nLojR+92F9PLTZQPcuQf97TP/MzYeFBSH+i3fNrXj0aAd+fQoTJ2ij2yy6sfTaW3qraP44tyhmHX0d2cXfWZN7cqetCgruAf60bFch9Scoeyjhi21TA+QLbT+Kh+WHyFPQwcAHRFoR5y8KZqwfj5Xqu18Y5GEiF/aOXWkbjwFQjDma+1mHJewitIcV6PuHl1Hw30iJbAKJBDreOwEdmq3ei9lgUxlDVWyiumXIc82VF2tK3qjSpx/b2R36o4aEuvCv5xZFf3WeFZID8ldzeXBzQL1cbRQcf37JxaqsuvktU=
   app: vast-caverns-77467
   on:
+    branch: master
+    python: "3.6"
     repo: Meli009/project
