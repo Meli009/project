@@ -41,7 +41,7 @@ class MainTests(unittest.TestCase):
         response = self.app.get('/this-route-does-not-exist/')
         self.assertEquals(response.status_code, 404)
         self.assertIn(b'Sorry. There is nothing here.', response.data)
-"""
+
     def test_500_error(self):
         bad_user = User(
             name='Jeremy',
@@ -56,7 +56,12 @@ class MainTests(unittest.TestCase):
             self.assertEquals(response.status_code, 500)
         except ValueError:
             pass
-"""
+
+    def test_index(self):
+        """Ensure the Flask was set upp correctly."""
+        response = self.app.get('/', content_type="html/text")
+        self.assertEquals(response.status_code, 200)
+
 
 if __name__ == "__main__":
     unittest.main()
